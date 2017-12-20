@@ -1,0 +1,14 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPath": "/ecms2/portal/test/carType"
+	},
+	"response": {
+		"status": 200,
+		"body": "<?xmlversion='1.0'encoding='UTF-8'?><response><head><msgId>$(head.msgId)</msgId><timeStamp>$(head.timeStamp)</timeStamp><userCode>$(head.userCode)</userCode><status>S</status></head><body><vehicle><carBrand>梅赛德斯-奔驰</carBrand><farmilyName>奔驰E级</farmilyName><exhaustScale>2.996</exhaustScale><purchasePrice>548000.00</purchasePrice><manualFlag>自动</manualFlag><configModel>奔驰BENZE300轿车2009款2.996BS02548000.00元5座</configModel><modelCode>BCI1385DGB</modelCode><seat>5</seat></vehicle></body></response>",
+		"headers": {
+			"Content-Type": "text/xml"
+		},
+		"transformers": ["body-transformer"]
+	}
+}

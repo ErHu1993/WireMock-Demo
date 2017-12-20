@@ -1,0 +1,14 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPath": "/ecms2/portal/test/saveOrderVehicle"
+	},
+	"response": {
+		"status": 200,
+		"bodyFileName": "response-saveOrderVehicle-body.vm",
+		"headers": {
+			"Content-Type": "text/xml"
+		},
+		"transformers": ["body-transformer"]
+	}
+}

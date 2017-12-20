@@ -1,0 +1,14 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPath": "/ecms2/portal/test/judgeQuotetion"
+	},
+	"response": {
+		"status": 200,
+		"bodyFileName": "response-judgeQuotetion-body.vm",
+		"headers": {
+			"Content-Type": "text/xml"
+		},
+		"transformers": ["body-transformer"]
+	}
+}
